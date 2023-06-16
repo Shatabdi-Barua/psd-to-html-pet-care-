@@ -123,11 +123,12 @@
 .secondSectionContent p:first-child{
     font-size: 50px;
 }
-.secondSectionContent .secondSectionContent{
+.secondSectionContent{
     padding-top: 90px;
     padding-bottom: 120px;
     display: inline-flex;
-}p:nth-child(2){
+}
+.secondSectionContent p:nth-child(2){
     font-size: 29px;
 }
 .service-btn2{
