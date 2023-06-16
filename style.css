@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    background-color: #d9ab00;
+    min-height: 69px;
+}
+.wrapper{
+    width: 1164px;
+    padding-left: 134px;
+}
+.topHead img{
+    height: 42px;
+    width: 226px;
+}
+.topHead{
+    padding-top: 9px;
+}
+#navbarSupportedContent{
+    padding-left: 50px;
+}
+.nav-item a{
+    color: #fff;
+    font-size: 29px;
+    font-family: 'Poppins', sans-serif;  
+    padding-right: 40px !important;
+}
+.topHead .search-container {
+    float: right;    
+}
+
+.topHead input[type=text] {
+    padding: 6px 6px 6px 13px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    width: 127px;
+    margin-bottom: 8px;
+    background-color: #fbc301;
+    color: #fff;
+}
+.topHead .search-container button {
+    float: right;
+    padding: 6px 10px;
+    /* margin-top: 8px; */
+    /* margin-right: 16px; */
+    background: #00bdc9;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    width: 53px;
+}
+
+.topHead .search-container button:hover {
+    background: #01a5b0;
+}
+/* firstSection starts here  */
+.firstSection{
+    background-color: #fbc302;
+}
+.firstSectionContent{
+    padding-top: 90px;
+    padding-bottom: 120px;
+    display: inline-flex;
+}
+.firstSectionContent p{
+    font-family: 'Poppins', sans-serif; 
+    color: #fff;
+}
+.firstSectionContent p:first-child {
+    font-size: 67px;
+    font-weight: bold;
+}
+.firstSectionContent p:nth-child(2){
+    font-size: 29px;
+}
+.contact-btn
+{
+    background-color: #00bdc9;
+    border-color: #00bdc9;
+    margin-right: 40px;
+}
+.contact-btn:hover{
+    background-color: #00bdc9;
+    border-color: #00bdc9;
+}
+.service-btn{
+    background-color: transparent;
+    border-color: #fff;
+    border-width: 2px;    
+}
+.service-btn:hover{
+    background-color: transparent;
+    border-color: #fff;
+}
+.firstSectionContent img{
+    height: 575px;
+    width: 360px;
+    /* -webkit-transform: scaleX(-1); */
+    transform: scaleX(-1);    
+}
+/* firstSection ends here  */
+/* secondSection starts here  */
+.videoHover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 14px;
+    right: 0;
+    height: 100%;
+    width: 144%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #d9ab00;
+}  
+.imgContent:hover .videoHover{
+    opacity: 0.5;
+}
+.col-4 .imgContent{
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+.secondSectionContent p:first-child{
+    font-size: 50px;
+}
+.secondSectionContent .secondSectionContent{
+    padding-top: 90px;
+    padding-bottom: 120px;
+    display: inline-flex;
+}p:nth-child(2){
+    font-size: 29px;
+}
+.service-btn2{
+    background-color: #fbc301;
+    border-color: #fbc301;
+    border-width: 2px;    
+}
+.service-btn2:hover{
+    background-color: #fbc301;    
+}
+/* third section starts here  */
+.thirdSection{
+    background-color: #fbc301;
+}
+.thirdSectionContent{
+    padding-top: 90px;
+    padding-bottom: 120px;
+   
+}
+.thirdSectionContent p:first-child{
+    text-align: center;
+    font-size: 75px;
+    font-weight: bold;
+    color: #fff;
+}
+/* .titleContent{
+    width: 100%;
+} */
+.thirdSectionContent p:nth-child(2){
+    text-align: center;
+    color: #fff;
+    font-size: 33px;
+    font-weight: normal;
+    width: 67%;
+    margin-left: 13%;
+}
+.thirdSectionContent .col-md-4{
+    padding-right: 66px;
+}
+.doctorsCard{
+    background-color: #fbc301;
+    border: none;
+}
+.doctorsTitle{
+    font-size: 29px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+.doctorsCardText{
+    font-size: 13px !important;
+    color: #fff;
+}
+/* forth section starts here  */
+.forthSectionContent{
+    padding-top: 90px;
+    padding-bottom: 120px;
+    display: inline-flex;
+}
+.forthSectionContent .imgContent{
+    max-width: 510px;
+    margin-right: 20px;
+}
+.forthSectionContent .col-6{
+    text-align: right;
+}
+.forthSectionContent .col-6 p:nth-child(1){
+    font-size: 50px;   
+    font-weight: bold;
+}
+.forthSectionContent .col-6 p:nth-child(2)
+{    
+    font-size: 29px;
+}
+.forthSectionContent .videoHover{
+    width: 100%;
+}
+/* 5th section starts here  */
+.dogTitle span:first-child{
+    text-decoration: line-through;
+    padding-right: 20px;
+}
+.dogBuyButton{
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    background-color: #00bdc9;
+    width: 120px;   
+    transform: translate(50%, 50%);
+}
+.dogBuyButton:hover{
+    background-color: #00bdc9;
+}
+/* sixth section starts here*/
+.thirdSection.sixth{
+    background-color: transparent;
+}
+.thirdSectionContent.sixth p:first-child {
+    font-size: 75px;
+    color: #313243;
+    font-weight: bold;
+}
+.thirdSectionContent.sixth p:nth-child(2)
+{
+    color: #313243;
+    font-size: 33px;
+}
+.doctorsCard.vetCare{
+    background-color: transparent;
+}
+.card-title.doctorsTitle.drTitle{   
+    font-size: 29px;
+    font-weight: bolder;
+    color: #313243;
+}
+/* 7th section starts here  */
+.seventhSection{
+    /* background-color: #fbc301; */
+    background-image: url("images/seventh_section_img.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.seventhContent{
+    background-color: #fbc301;
+    opacity: 0.9;
+    /* position: absolute; */
+}
+.seventhContent .row{
+    padding-top: 90px;
+    padding-bottom: 120px;
+    display: inline-flex;
+}
+.doctorsCard.hosp{
+    text-align: center;
+    padding: 50px;
+}
+.hosp i{
+    font-size: 100px;
+    /* position: absolute;
+    top:50%; */
+}
+.card-title.doctorsTitle.hosp
+{
+    font-size: 42px;    
+}
+.card-text.doctorsCardText.hosp
+{
+    font-size: 23px !important;
+    font-weight: bold;
+}
+/* 8th section starts here  */
+.card.doctorsCard.recentPost
+{
+    border: 1px solid #f3f3f3;
+    background-color: transparent;
+}
+.card.doctorsCard.recentPost2
+{
+    border: none;
+    /* padding: 10px; */
+    box-shadow: 5px 10px 8px 5px #f3f3f3;
+    background-color: transparent;
+}
+.eighth .card-img-top {
+    max-width: 360px;
+    min-height: 350px;
+}
+.eighth .row{
+    padding-top: 30px;
+}
+.card-title.doctorsTitle.drTitle.recentPostTitle
+{
+    font-size: 23px;
+    text-align: left;
+}
+.thirdSectionContent.sixth.eighth span{
+    color: #00bec9;
+    font-size: 17px;
+}
+.card-text.doctorsCardText.recentPost{
+    color: #000;
+    /* font-size: 17px !important; */
+    padding-top: 20px;
+}
+.readMoreBtn{
+    text-decoration: none;
+    color: #00bec9;
+}
+/* footer section starts here  */
+.footerSection{
+    background-color: #333333;
+}
+.footerSectionContent{
+    padding-top: 90px;
+    padding-bottom: 120px;
+    display: inline-flex;
+}
+.footerSectionContent{
+    color: #fff;
+    width: 100%;
+}
+.footerSectionContent .grid-container {
+    display: grid;
+    /* column-gap: 100px; */
+    grid-template-columns: auto auto auto;    
+    padding: 10px;
+    width: 100%;
+}
+.footerSectionContent p:first-child{
+    font-size: 38px;
+}
+.footerSectionContent li{
+    list-style-type: none;    
+    /* font-size: 24px; */
+}
+.footerSectionContent li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 23px;
+}
+.lastSection{
+    text-align: right;
+}
+.lastSection p:last-child{
+    font-size: 25px;
+}
+.lastSection input[type="text"] {
+    background-color: #d9ab00;
+    background-size: cover;
+    padding-top: 9px;
+    padding-bottom: 15px;
+    padding-left: 167px;
+    border: none;
+}
+.lastSection .telg{
+    background-color: #00bdc9;
+    padding: 8px 51px;
+}
+.lastSection a img{
+    max-width: 46px;
+    padding-left: 5px;
+}
+.socialMedia {
+    max-width: 100%;
+    padding-top: 20px;
+}
